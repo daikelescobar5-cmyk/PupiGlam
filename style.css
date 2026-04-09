@@ -1,0 +1,26 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(to right, #6a0dad, #f4c542);
+  color: white;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+.producto {
+  background: white;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button {
+  background: #6a0dad;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
