@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="logo.png" class="logo">
+  <h1>Mi Tienda</h1>
+</header>
+
+<nav id="categorias"></nav>
+
+<section id="productos"></section>
+
+<h2>🛒 Carrito</h2>
+<ul id="carrito"></ul>
+
+<button onclick="enviarWhatsApp()">Finalizar pedido</button>
+
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
